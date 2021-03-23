@@ -166,6 +166,9 @@ func (h *HttpHandler) GetCausalRelations(c *gin.Context) {
 		})
 	} else {
 		h.Logger.Error("failed to get causal relations", zap.Error(err))
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"result": []*api_v1.TraceNode{},
+		})
 	}
 }
 
