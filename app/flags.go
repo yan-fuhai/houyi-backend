@@ -29,7 +29,7 @@ const (
 const (
 	DefaultStrategyManagerAddr = "strategy-manager"
 	DefaultStrategyManagerPort = ports.StrategyManagerGrpcListenPort
-	DefaultHttpListenPort      = 8080
+	DefaultHttpListenPort      = 80
 )
 
 type Flags struct {
