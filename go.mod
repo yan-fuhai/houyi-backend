@@ -9,13 +9,15 @@ require (
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
-	github.com/houyi-tracing/houyi v1.1.0
+	github.com/houyi-tracing/houyi v1.2.0
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/kardianos/govendor v1.0.9 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/spf13/cobra v1.1.1
+	github.com/spf13/viper v1.7.1
 	github.com/ugorji/go v1.2.4 // indirect
 	go.uber.org/zap v1.16.0
 	golang.org/x/crypto v0.0.0-20210314154223-e6e6c4f2bb5b // indirect
