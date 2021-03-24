@@ -49,6 +49,8 @@ func NewHttpServer(params *HttpServerParams) *HttpServer {
 }
 
 func (s *HttpServer) StartHttpServer() error {
+	s.Logger.Debug("Strategy Manager Endpoint", zap.String("endpoint", s.StrategyManagerEp.String()))
+
 	handler := HttpHandler{
 		Logger:            s.Logger,
 		StrategyManagerEp: s.StrategyManagerEp,
